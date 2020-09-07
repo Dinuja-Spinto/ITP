@@ -236,7 +236,12 @@ public class createaccount extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextField1FocusGained
 
     private void jTextField1FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField1FocusLost
-
+        if(jTextField1.getText().equals(""))
+        {
+            jTextField1.setText("Enter User ID");
+            jTextField1.setForeground(new Color(153,153,153));
+            
+        }
             
         
     }//GEN-LAST:event_jTextField1FocusLost
