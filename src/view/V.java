@@ -11,4 +11,23 @@ package view;
  */
 public class V {
     
+    private byte[] picture;
+    
+    public V(byte[]image){
+        
+        this.picture = image;
+    }
+    
+    public byte[] getImage(){
+        
+        return picture;
+}
+    
+    public static void main(String args[]){
+        
+            EmpDetails ShowEmp = new EmpDetails();
+            ShowEmp.setVisible(true);
+        //ShowEmp.show();
+    }
+    
 }
