@@ -46,7 +46,7 @@ public class StockHome extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
         jLabel1.setText("                Stock Management");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 30, 700, 60));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 30, 700, 60));
 
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Stobackground/billing.png"))); // NOI18N
         jButton2.addActionListener(new java.awt.event.ActionListener() {
