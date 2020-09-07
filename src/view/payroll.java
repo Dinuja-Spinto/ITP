@@ -33,11 +33,9 @@ public class payroll extends javax.swing.JFrame {
         jLabel6 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jTextField1 = new javax.swing.JTextField();
-        jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
-        jCheckBox1 = new javax.swing.JCheckBox();
         jButton5 = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
@@ -52,11 +50,13 @@ public class payroll extends javax.swing.JFrame {
         jLabel6.setText("jLabel6");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setUndecorated(true);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
+        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("WELCOME TO PAYROLL SYSTEM");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 10, 406, 43));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 20, 610, 30));
 
         jTextField1.setText("Enter Employee ID");
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
@@ -64,14 +64,9 @@ public class payroll extends javax.swing.JFrame {
                 jTextField1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 70, 146, -1));
+        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(166, 80, 170, 30));
 
-        jButton1.setBackground(java.awt.Color.cyan);
-        jButton1.setFont(new java.awt.Font("Yu Gothic UI", 1, 18)); // NOI18N
-        jButton1.setText("Calculate Employee Salary");
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 150, 315, 54));
-
-        jButton2.setBackground(java.awt.Color.cyan);
+        jButton2.setBackground(new java.awt.Color(204, 255, 204));
         jButton2.setFont(new java.awt.Font("Yu Gothic UI", 1, 14)); // NOI18N
         jButton2.setText("Generate Monthly Report");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -79,14 +74,14 @@ public class payroll extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 260, -1, 31));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 250, -1, 31));
 
-        jButton3.setBackground(java.awt.Color.cyan);
+        jButton3.setBackground(new java.awt.Color(204, 255, 204));
         jButton3.setFont(new java.awt.Font("Yu Gothic UI", 1, 14)); // NOI18N
         jButton3.setText("Search");
-        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 70, 94, 31));
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 80, 94, 31));
 
-        jButton4.setBackground(java.awt.Color.cyan);
+        jButton4.setBackground(new java.awt.Color(204, 255, 204));
         jButton4.setFont(new java.awt.Font("Yu Gothic UI", 1, 14)); // NOI18N
         jButton4.setText("Show Salary Sheet");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -94,42 +89,26 @@ public class payroll extends javax.swing.JFrame {
                 jButton4ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 260, 160, 31));
+        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 180, 160, 31));
 
-        jCheckBox1.setFont(new java.awt.Font("Yu Gothic UI", 1, 14)); // NOI18N
-        jCheckBox1.setText("      Print the Salary Sheet");
-        jCheckBox1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox1ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jCheckBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 350, 204, 43));
-
+        jButton5.setBackground(new java.awt.Color(204, 255, 204));
+        jButton5.setFont(new java.awt.Font("Yu Gothic UI", 1, 14)); // NOI18N
         jButton5.setText("Back");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, -1, -1));
+        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 330, -1, -1));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/uBack/pay.jpg"))); // NOI18N
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 120, 210, 210));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 130, 260, 280));
 
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/uBack/background.png"))); // NOI18N
-        jLabel8.setText("jLabel8");
-        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 740, 430));
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 690, 420));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void jCheckBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox1ActionPerformed
-
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField1ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         home w = new home();
@@ -148,6 +127,10 @@ public class payroll extends javax.swing.JFrame {
         r.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -185,12 +168,10 @@ public class payroll extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
-    private javax.swing.JCheckBox jCheckBox1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
