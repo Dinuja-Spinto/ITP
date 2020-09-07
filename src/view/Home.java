@@ -46,6 +46,20 @@ public class Home extends javax.swing.JFrame {
         jLabel7 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
+        btnItem = new javax.swing.JButton();
+        jLabel11 = new javax.swing.JLabel();
+        btnFinance = new javax.swing.JButton();
+        jLabel12 = new javax.swing.JLabel();
+        btnEmp = new javax.swing.JButton();
+        jLabel13 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        btnOrder = new javax.swing.JButton();
+        btnUser = new javax.swing.JButton();
+        jLabel15 = new javax.swing.JLabel();
+        btnStock = new javax.swing.JButton();
+        jLabel16 = new javax.swing.JLabel();
+        btnSup = new javax.swing.JButton();
+        jLabel17 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -171,11 +185,95 @@ public class Home extends javax.swing.JFrame {
 
         jLabel10.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
         jLabel10.setText("Sale Report");
-        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 80, 80, 30));
+        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 80, 80, 30));
 
         jLabel9.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
         jLabel9.setText("Issue Voucher");
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(592, 80, 90, 30));
+
+        btnItem.setText("jButton1");
+        btnItem.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnItemActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btnItem, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 150, 80, 30));
+
+        jLabel11.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel11.setText("Item Managment");
+        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 190, -1, -1));
+
+        btnFinance.setText("jButton2");
+        btnFinance.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnFinanceActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btnFinance, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 230, -1, -1));
+
+        jLabel12.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel12.setText("Finance ");
+        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 260, -1, -1));
+
+        btnEmp.setText("jButton3");
+        btnEmp.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEmpActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btnEmp, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 310, -1, -1));
+
+        jLabel13.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel13.setText("Employee");
+        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 340, -1, -1));
+
+        jLabel14.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel14.setText("Order");
+        getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 440, -1, -1));
+
+        btnOrder.setText("jButton4");
+        btnOrder.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnOrderActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btnOrder, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 400, -1, -1));
+
+        btnUser.setText("jButton5");
+        btnUser.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnUserActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btnUser, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 480, -1, -1));
+
+        jLabel15.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel15.setText("User & Payroll");
+        getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 520, -1, -1));
+
+        btnStock.setText("jButton6");
+        btnStock.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnStockActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btnStock, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 570, -1, -1));
+
+        jLabel16.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel16.setText("Stock");
+        getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 600, -1, -1));
+
+        btnSup.setText("jButton7");
+        btnSup.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnSupActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btnSup, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 640, -1, -1));
+
+        jLabel17.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel17.setText("supplier");
+        getContentPane().add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 670, -1, -1));
 
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/home.PNG"))); // NOI18N
         getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
@@ -238,6 +336,41 @@ public class Home extends javax.swing.JFrame {
         new Voucher().setVisible(true);
     }//GEN-LAST:event_btnVoucherActionPerformed
 
+    private void btnItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnItemActionPerformed
+        // TODO add your handling code here:
+        //new ItemHome().setVisible(true);
+    }//GEN-LAST:event_btnItemActionPerformed
+
+    private void btnFinanceActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFinanceActionPerformed
+        // TODO add your handling code here:
+        //new FinanceHome().setVisible(true);
+    }//GEN-LAST:event_btnFinanceActionPerformed
+
+    private void btnEmpActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEmpActionPerformed
+        // TODO add your handling code here:
+       // new EmpDashBoard().setVisible(true);
+    }//GEN-LAST:event_btnEmpActionPerformed
+
+    private void btnOrderActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnOrderActionPerformed
+        // TODO add your handling code here:
+        //new AddOrderHomePage().setVisible(true);
+    }//GEN-LAST:event_btnOrderActionPerformed
+
+    private void btnUserActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUserActionPerformed
+        // TODO add your handling code here:
+        //new home().setVisible(true);
+    }//GEN-LAST:event_btnUserActionPerformed
+
+    private void btnStockActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnStockActionPerformed
+        // TODO add your handling code here:
+        //new StockHome().setVisible(true);
+    }//GEN-LAST:event_btnStockActionPerformed
+
+    private void btnSupActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSupActionPerformed
+        // TODO add your handling code here:
+        //new SupplierHome().setVisible(true);
+    }//GEN-LAST:event_btnSupActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -276,12 +409,26 @@ public class Home extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton Bill;
     private javax.swing.JButton DelCus;
+    private javax.swing.JButton btnEmp;
+    private javax.swing.JButton btnFinance;
+    private javax.swing.JButton btnItem;
+    private javax.swing.JButton btnOrder;
     private javax.swing.JButton btnReport;
+    private javax.swing.JButton btnStock;
+    private javax.swing.JButton btnSup;
+    private javax.swing.JButton btnUser;
     private javax.swing.JButton btnVoucher;
     private javax.swing.JButton closeApp;
     private javax.swing.JButton dCus;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
