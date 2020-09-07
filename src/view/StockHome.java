@@ -45,7 +45,7 @@ public class StockHome extends javax.swing.JFrame {
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
-        jLabel1.setText("                Stock Managment");
+        jLabel1.setText("                Stock Management");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 30, 700, 60));
 
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Stobackground/billing.png"))); // NOI18N
@@ -85,15 +85,15 @@ public class StockHome extends javax.swing.JFrame {
         getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 170, 170, 110));
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jLabel3.setText("Add Iteam");
+        jLabel3.setText("Add Item");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 330, 160, 30));
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jLabel4.setText("Update Iteam");
+        jLabel4.setText("Update Item");
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 330, 170, 30));
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jLabel5.setText("Delete Iteam");
+        jLabel5.setText("Delete Item");
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 330, 170, 30));
 
         jButton3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N

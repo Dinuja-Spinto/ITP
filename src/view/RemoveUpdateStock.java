@@ -61,7 +61,7 @@ public class RemoveUpdateStock extends javax.swing.JFrame {
         getContentPane().add(textField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 120, 240, 40));
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 15)); // NOI18N
-        jLabel2.setText("Input the Iteam ID:");
+        jLabel2.setText("Input the Item ID:");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 120, 150, 40));
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
