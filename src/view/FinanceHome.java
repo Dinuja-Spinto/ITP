@@ -404,7 +404,7 @@ public class FinanceHome extends javax.swing.JFrame {
 
     private void jTextField5FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField5FocusGained
         // TODO add your handling code here:
-                if(jTextField5.getText().equals("Enter Expences"))
+        if(jTextField5.getText().equals("Enter Expences"))
         {
             jTextField5.setText("");
             jTextField5.setForeground(new Color(0,0,0));
@@ -413,7 +413,7 @@ public class FinanceHome extends javax.swing.JFrame {
 
     private void jTextField5FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField5FocusLost
         // TODO add your handling code here:
-                if(jTextField5.getText().equals(""))
+        if(jTextField5.getText().equals(""))
         {
             jTextField5.setText("Enter Expences");
             jTextField5.setForeground(new Color(153,153,153));
@@ -422,91 +422,91 @@ public class FinanceHome extends javax.swing.JFrame {
 
     private void jTextField4FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField4FocusGained
         // TODO add your handling code here:
-                        if(jTextField5.getText().equals("Enter Net-income"))
+        if(jTextField4.getText().equals("Enter Net-income"))
         {
-            jTextField5.setText("");
-            jTextField5.setForeground(new Color(0,0,0));
+            jTextField4.setText("");
+            jTextField4.setForeground(new Color(0,0,0));
         }
     }//GEN-LAST:event_jTextField4FocusGained
 
     private void jTextField4FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField4FocusLost
         // TODO add your handling code here:
-                        if(jTextField5.getText().equals(""))
+        if(jTextField4.getText().equals(""))
         {
-            jTextField5.setText("Enter Net-income");
-            jTextField5.setForeground(new Color(153,153,153));
+            jTextField4.setText("Enter Net-income");
+            jTextField4.setForeground(new Color(153,153,153));
         }
     }//GEN-LAST:event_jTextField4FocusLost
 
     private void jTextField1FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField1FocusGained
         // TODO add your handling code here:
-                                if(jTextField5.getText().equals("EEnter Utility costs"))
+        if(jTextField1.getText().equals("EEnter Utility costs"))
         {
-            jTextField5.setText("");
-            jTextField5.setForeground(new Color(0,0,0));
+            jTextField1.setText("");
+            jTextField1.setForeground(new Color(0,0,0));
         }
     }//GEN-LAST:event_jTextField1FocusGained
 
     private void jTextField1FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField1FocusLost
         // TODO add your handling code here:
-                                if(jTextField5.getText().equals("E"))
+        if(jTextField1.getText().equals(""))
         {
-            jTextField5.setText("Enter Utility costs");
-            jTextField5.setForeground(new Color(153,153,153));
+            jTextField1.setText("Enter Utility costs");
+            jTextField1.setForeground(new Color(153,153,153));
         }
     }//GEN-LAST:event_jTextField1FocusLost
 
     private void jTextField2FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField2FocusGained
         // TODO add your handling code here:
-                                if(jTextField5.getText().equals("Enter Total salary amount"))
+        if(jTextField2.getText().equals("Enter Total salary amount"))
         {
-            jTextField5.setText("");
-            jTextField5.setForeground(new Color(0,0,0));
+            jTextField2.setText("");
+            jTextField2.setForeground(new Color(0,0,0));
         }
     }//GEN-LAST:event_jTextField2FocusGained
 
     private void jTextField2FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField2FocusLost
         // TODO add your handling code here:
-                                if(jTextField5.getText().equals(""))
+        if(jTextField2.getText().equals(""))
         {
-            jTextField5.setText("Enter Total salary amount");
-            jTextField5.setForeground(new Color(153,153,153));
+            jTextField2.setText("Enter Total salary amount");
+            jTextField2.setForeground(new Color(153,153,153));
         }
     }//GEN-LAST:event_jTextField2FocusLost
 
     private void jTextField3FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField3FocusGained
         // TODO add your handling code here:
-                                if(jTextField5.getText().equals("Enter the number of employees"))
+        if(jTextField3.getText().equals("Enter the number of employees"))
         {
-            jTextField5.setText("");
-            jTextField5.setForeground(new Color(0,0,0));
+            jTextField3.setText("");
+            jTextField3.setForeground(new Color(0,0,0));
         }
     }//GEN-LAST:event_jTextField3FocusGained
 
     private void jTextField3FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField3FocusLost
         // TODO add your handling code here:
-                                if(jTextField5.getText().equals(""))
+        if(jTextField3.getText().equals(""))
         {
-            jTextField5.setText("Enter the number of employees");
-            jTextField5.setForeground(new Color(153,153,153));
+            jTextField3.setText("Enter the number of employees");
+            jTextField3.setForeground(new Color(153,153,153));
         }
     }//GEN-LAST:event_jTextField3FocusLost
 
     private void jTextField7FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField7FocusGained
         // TODO add your handling code here:
-                                if(jTextField5.getText().equals("Enter Asserts"))
+        if(jTextField7.getText().equals("Enter Asserts"))
         {
-            jTextField5.setText("");
-            jTextField5.setForeground(new Color(0,0,0));
+            jTextField7.setText("");
+            jTextField7.setForeground(new Color(0,0,0));
         }
     }//GEN-LAST:event_jTextField7FocusGained
 
     private void jTextField7FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField7FocusLost
         // TODO add your handling code here:
-                                if(jTextField5.getText().equals("Enter Asserts"))
+        if(jTextField7.getText().equals("Enter Asserts"))
         {
-            jTextField5.setText("");
-            jTextField5.setForeground(new Color(153,153,153));
+            jTextField7.setText("");
+            jTextField7.setForeground(new Color(153,153,153));
         }
     }//GEN-LAST:event_jTextField7FocusLost
 
